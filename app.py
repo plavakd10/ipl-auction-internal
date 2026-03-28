@@ -257,7 +257,7 @@ st.markdown(
     .title {
         font-size: 42px;
         font-weight: 800;
-        color: white;
+        color: black;
         text-align: center;
         padding-bottom: 10px;
     }
@@ -276,7 +276,7 @@ st.markdown(
     .stText,
     p, h1, h2, h3, h4, h5, h6,
     label {
-        color: white !important;
+        color: black !important;
     }
 
     div[data-testid="stDataFrame"] {
@@ -286,7 +286,7 @@ st.markdown(
     }
 
     div[data-testid="stDataFrame"] table {
-        color: white !important;
+        color: black !important;
     }
 
     div[data-testid="stDataFrame"] th {
@@ -300,10 +300,6 @@ st.markdown(
 
 # ---------------- HEADER ----------------
 st.markdown('<div class="title">🏏 IPL Auction Head-to-Head League</div>', unsafe_allow_html=True)
-st.markdown(
-    '<div class="subtitle">Track every team\'s opponent across the full IPL season</div>',
-    unsafe_allow_html=True,
-)
 
 # ---------------- UI LAYOUT ----------------
 left, right = st.columns([1, 2])
@@ -326,7 +322,7 @@ with right:
         st.markdown(f"### 📅 {selected_team} Schedule")
         st.dataframe(df, use_container_width=True, hide_index=True)
 
-        st.metric("Total Matchweeks", len(df))
+
 
 st.divider()
 
