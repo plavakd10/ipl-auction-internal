@@ -257,7 +257,7 @@ st.markdown(
     .title {
         font-size: 42px;
         font-weight: 800;
-        color: black;
+        color: white;
         text-align: center;
         padding-bottom: 10px;
     }
@@ -276,7 +276,7 @@ st.markdown(
     .stText,
     p, h1, h2, h3, h4, h5, h6,
     label {
-        color: black !important;
+        color: white !important;
     }
 
     div[data-testid="stDataFrame"] {
@@ -286,7 +286,7 @@ st.markdown(
     }
 
     div[data-testid="stDataFrame"] table {
-        color: black !important;
+        color: white !important;
     }
 
     div[data-testid="stDataFrame"] th {
