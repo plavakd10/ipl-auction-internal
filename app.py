@@ -8,138 +8,166 @@ st.set_page_config(
 )
 
 schedule = {
-    "Week 1": {
-        "dates": "Mar 28 - Apr 1",
-        "matches": [
-            ("Dx", "CR7"),
-            ("SBKR", "ICONIC"),
-            ("Joker's", "AE_XXX"),
-            ("IPL Leo", "Bangaluru"),
-            ("Devdutt", "XI Wizards"),
-            ("HURRICANES", "Ghop Ghop")
-        ]
-    },
     "Week 2": {
         "dates": "Apr 2 - Apr 5",
         "matches": [
-            ("Dx", "ICONIC"),
-            ("CR7", "AE_XXX"),
-            ("SBKR", "Bangaluru"),
-            ("Joker's", "XI Wizards"),
-            ("IPL Leo", "Ghop Ghop"),
-            ("Devdutt", "HURRICANES")
+            ("IPL Leo", "Cr7"),
+            ("100 Pipers", "Delhi Daredevils"),
+            ("Dc", "Targaryens"),
+            ("RCB", "Reaper XX"),
+            ("GHOP GHOP", "Asish DX"),
+            ("HORNCHURCH", "XI Habibi's"),
+            ("Sourav Knights", "WICK XI")
         ]
     },
     "Week 3": {
         "dates": "Apr 5 - Apr 9",
         "matches": [
-            ("Dx", "AE_XXX"),
-            ("ICONIC", "Bangaluru"),
-            ("CR7", "XI Wizards"),
-            ("SBKR", "Ghop Ghop"),
-            ("Joker's", "HURRICANES"),
-            ("IPL Leo", "Devdutt")
+            ("IPL Leo", "Delhi Daredevils"),
+            ("Cr7", "Targaryens"),
+            ("100 Pipers", "Reaper XX"),
+            ("Dc", "Asish DX"),
+            ("RCB", "XI Habibi's"),
+            ("GHOP GHOP", "WICK XI"),
+            ("HORNCHURCH", "Sourav Knights")
         ]
     },
     "Week 4": {
         "dates": "Apr 10 - Apr 12",
         "matches": [
-            ("Dx", "Bangaluru"),
-            ("AE_XXX", "XI Wizards"),
-            ("ICONIC", "Ghop Ghop"),
-            ("CR7", "HURRICANES"),
-            ("SBKR", "Devdutt"),
-            ("Joker's", "IPL Leo")
+            ("IPL Leo", "Targaryens"),
+            ("Delhi Daredevils", "Reaper XX"),
+            ("Cr7", "Asish DX"),
+            ("100 Pipers", "XI Habibi's"),
+            ("Dc", "WICK XI"),
+            ("RCB", "Sourav Knights"),
+            ("GHOP GHOP", "HORNCHURCH")
+        ]
+    },
+    "Week 5": {
+        "dates": "Apr 13 - Apr 17",
+        "matches": [
+            ("IPL Leo", "Reaper XX"),
+            ("Targaryens", "Asish DX"),
+            ("Delhi Daredevils", "XI Habibi's"),
+            ("Cr7", "WICK XI"),
+            ("100 Pipers", "Sourav Knights"),
+            ("Dc", "HORNCHURCH"),
+            ("RCB", "GHOP GHOP")
+        ]
+    },
+    "Week 6": {
+        "dates": "Apr 18 - Apr 20",
+        "matches": [
+            ("IPL Leo", "Asish DX"),
+            ("Reaper XX", "XI Habibi's"),
+            ("Targaryens", "WICK XI"),
+            ("Delhi Daredevils", "Sourav Knights"),
+            ("Cr7", "HORNCHURCH"),
+            ("100 Pipers", "GHOP GHOP"),
+            ("Dc", "RCB")
         ]
     },
     "Week 7": {
         "dates": "Apr 21 - Apr 25",
         "matches": [
-            ("Dx", "XI Wizards"),
-            ("Bangaluru", "Ghop Ghop"),
-            ("AE_XXX", "HURRICANES"),
-            ("ICONIC", "Devdutt"),
-            ("CR7", "IPL Leo"),
-            ("SBKR", "Joker's")
+            ("IPL Leo", "XI Habibi's"),
+            ("Asish DX", "WICK XI"),
+            ("Reaper XX", "Sourav Knights"),
+            ("Targaryens", "HORNCHURCH"),
+            ("Delhi Daredevils", "GHOP GHOP"),
+            ("Cr7", "RCB"),
+            ("100 Pipers", "Dc")
         ]
     },
     "Week 8": {
         "dates": "Apr 25 - Apr 28",
         "matches": [
-            ("Dx", "Ghop Ghop"),
-            ("XI Wizards", "HURRICANES"),
-            ("Bangaluru", "Devdutt"),
-            ("AE_XXX", "IPL Leo"),
-            ("ICONIC", "Joker's"),
-            ("CR7", "SBKR")
+            ("IPL Leo", "WICK XI"),
+            ("XI Habibi's", "Sourav Knights"),
+            ("Asish DX", "HORNCHURCH"),
+            ("Reaper XX", "GHOP GHOP"),
+            ("Targaryens", "RCB"),
+            ("Delhi Daredevils", "Dc"),
+            ("Cr7", "100 Pipers")
         ]
     },
     "Week 9": {
         "dates": "Apr 29 - May 3",
         "matches": [
-            ("Dx", "HURRICANES"),
-            ("Ghop Ghop", "Devdutt"),
-            ("XI Wizards", "IPL Leo"),
-            ("Bangaluru", "Joker's"),
-            ("AE_XXX", "SBKR"),
-            ("ICONIC", "CR7")
+            ("IPL Leo", "Sourav Knights"),
+            ("WICK XI", "HORNCHURCH"),
+            ("XI Habibi's", "GHOP GHOP"),
+            ("Asish DX", "RCB"),
+            ("Reaper XX", "Dc"),
+            ("Targaryens", "100 Pipers"),
+            ("Delhi Daredevils", "Cr7")
         ]
     },
     "Week 10": {
         "dates": "May 3 - May 7",
         "matches": [
-            ("Dx", "Devdutt"),
-            ("HURRICANES", "IPL Leo"),
-            ("Ghop Ghop", "Joker's"),
-            ("XI Wizards", "SBKR"),
-            ("Bangaluru", "CR7"),
-            ("AE_XXX", "ICONIC")
+            ("IPL Leo", "HORNCHURCH"),
+            ("Sourav Knights", "GHOP GHOP"),
+            ("WICK XI", "RCB"),
+            ("XI Habibi's", "Dc"),
+            ("Asish DX", "100 Pipers"),
+            ("Reaper XX", "Cr7"),
+            ("Targaryens", "Delhi Daredevils")
+        ]
+    },
+    "Week 11": {
+        "dates": "May 8 - May 11",
+        "matches": [
+            ("IPL Leo", "GHOP GHOP"),
+            ("HORNCHURCH", "RCB"),
+            ("Sourav Knights", "Dc"),
+            ("WICK XI", "100 Pipers"),
+            ("XI Habibi's", "Cr7"),
+            ("Asish DX", "Delhi Daredevils"),
+            ("Reaper XX", "Targaryens")
         ]
     },
     "Week 12": {
         "dates": "May 12 - May 16",
         "matches": [
-            ("Dx", "IPL Leo"),
-            ("Devdutt", "Joker's"),
-            ("HURRICANES", "SBKR"),
-            ("Ghop Ghop", "CR7"),
-            ("XI Wizards", "ICONIC"),
-            ("Bangaluru", "AE_XXX")
+            ("IPL Leo", "RCB"),
+            ("GHOP GHOP", "Dc"),
+            ("HORNCHURCH", "100 Pipers"),
+            ("Sourav Knights", "Cr7"),
+            ("WICK XI", "Delhi Daredevils"),
+            ("XI Habibi's", "Targaryens"),
+            ("Asish DX", "Reaper XX")
         ]
     },
     "Week 13": {
         "dates": "May 17 - May 20",
         "matches": [
-            ("Dx", "Joker's"),
-            ("IPL Leo", "SBKR"),
-            ("Devdutt", "CR7"),
-            ("HURRICANES", "ICONIC"),
-            ("Ghop Ghop", "AE_XXX"),
-            ("XI Wizards", "Bangaluru")
+            ("IPL Leo", "Dc"),
+            ("RCB", "100 Pipers"),
+            ("GHOP GHOP", "Cr7"),
+            ("HORNCHURCH", "Delhi Daredevils"),
+            ("Sourav Knights", "Targaryens"),
+            ("WICK XI", "Reaper XX"),
+            ("XI Habibi's", "Asish DX")
         ]
     },
     "Week 14": {
         "dates": "May 21 - May 24",
         "matches": [
-            ("Dx", "SBKR"),
-            ("Joker's", "CR7"),
-            ("IPL Leo", "ICONIC"),
-            ("Devdutt", "AE_XXX"),
-            ("HURRICANES", "Bangaluru"),
-            ("Ghop Ghop", "XI Wizards")
+            ("IPL Leo", "100 Pipers"),
+            ("Dc", "Cr7"),
+            ("RCB", "Delhi Daredevils"),
+            ("GHOP GHOP", "Targaryens"),
+            ("HORNCHURCH", "Reaper XX"),
+            ("Sourav Knights", "Asish DX"),
+            ("WICK XI", "XI Habibi's")
         ]
     }
 }
 
 
 week_fixtures = {
-    "Week 1": [
-        "RCB vs SRH",
-        "MI vs KKR",
-        "RR vs CSK",
-        "PBKS vs GT",
-        "LSG vs DC",
-    ],
     "Week 2": [
         "KKR vs SRH",
         "CSK vs PBKS",
@@ -160,6 +188,20 @@ week_fixtures = {
         "CSK vs DC",
         "LSG vs GT",
         "MI vs RCB",
+    ],
+    "Week 5": [
+        "SRH vs RR",
+        "CSK vs KKR",
+        "RCB vs LSG",
+        "MI vs PBKS",
+        "GT vs KKR",
+    ],
+    "Week 6": [
+        "RCB vs DC",
+        "SRH vs CSK",
+        "KKR vs RR",
+        "PBKS vs LSG",
+        "GT vs MI",
     ],
     "Week 7": [
         "SRH vs DC",
@@ -189,6 +231,13 @@ week_fixtures = {
         "SRH vs PBKS",
         "LSG vs RCB",
     ],
+    "Week 11": [
+        "DC vs KKR",
+        "RR vs GT",
+        "CSK vs LSG",
+        "RCB vs MI",
+        "PBKS vs DC",
+    ],
     "Week 12": [
         "GT vs SRH",
         "RCB vs KKR",
@@ -212,7 +261,6 @@ week_fixtures = {
     ],
 }
 
-BREAK_WEEKS = ["GW5", "GW6", "GW11"]
 
 # ---------------- HELPERS ----------------
 def get_all_teams(schedule_dict):
@@ -308,9 +356,7 @@ with left:
     st.markdown("### 🎯 Select Team")
     selected_team = st.selectbox("Choose your team", teams)
 
-    st.info(
-        "📌 Includes all active matchweeks. Break match weeks - 5,6 and 11"
-    )
+
     st.info(
         "🏆 At the enf of 70 matches, top 4 in the H2H table will qualify for playoffs. Playoffs rounds will be similar to actual playoffs. Qualifier 1 - 1st vs 2nd. Eliminator - 3rd vs 4th. Qualifier 2 - Eliminator winner vs Qualifier 1 loser. Final - Qualifier 1 winner vs Qualifier 2 winner."
     )
@@ -339,27 +385,37 @@ team_logos = {
     "DC": "logos/DC.png",
 }
 
-# ---------------- WEEK FIXTURES VIEW ----------------
-st.markdown("### 🏟️ IPL Fixtures for Selected Matchweek")
-selected_gw = st.selectbox("Select Matchweek", list(week_fixtures.keys()), key="fixture_gw")
+st.markdown("### 🏟️ IPL Fixtures for Selected Matchweek") 
 
+selected_gw = st.selectbox(
+    "Select Matchweek", 
+    list(week_fixtures.keys()), 
+    key="fixture_gw"
+)
 for fixture in week_fixtures[selected_gw]:
     team1, team2 = fixture.split(" vs ")
 
     with st.container():
-        c1, c2, c3 = st.columns([1.2, 0.4, 1.2])
-        
+        c1, c2, c3 = st.columns([1, 0.5, 1])  # tighter
+
         with c1:
-            st.image(team_logos.get(team1, "logos/default.png"), width=70)
-            st.markdown(f"### {team1}")
+            st.markdown("<div style='text-align:center;'>", unsafe_allow_html=True)
+            st.image(team_logos.get(team1, "logos/default.png"), width=100)
+            st.markdown(f"<p style='margin:0; font-size:14px;'>{team1}</p>", unsafe_allow_html=True)
+            st.markdown("</div>", unsafe_allow_html=True)
 
         with c2:
-            st.markdown("<div style='text-align:center; font-size:36px; padding-top:20px;'>🆚</div>", unsafe_allow_html=True)
+            st.markdown(
+                "<div style='text-align:center; font-size:18px; margin-top:20px;'>VS</div>",
+                unsafe_allow_html=True
+            )
 
         with c3:
-            st.image(team_logos.get(team2, "logos/default.png"), width=70)
-            st.markdown(f"### {team2}")
+            st.markdown("<div style='text-align:center;'>", unsafe_allow_html=True)
+            st.image(team_logos.get(team2, "logos/default.png"), width=100)
+            st.markdown(f"<p style='margin:0; font-size:14px;'>{team2}</p>", unsafe_allow_html=True)
+            st.markdown("</div>", unsafe_allow_html=True)
 
-        st.markdown("---")
+        st.markdown("<hr style='margin:8px 0;'>", unsafe_allow_html=True)
         
 st.caption("Made by IPL Leo")
